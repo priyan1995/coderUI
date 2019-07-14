@@ -1,0 +1,63 @@
+body{
+	background-color: black;
+	margin:0
+	padding:0;
+}
+
+.container span{
+	display: block;
+	text-transform: uppercase;
+}
+.container{
+	text-align: center;
+	position: absolute;
+	left: 10%;
+	top:50%;
+	width: 100%;
+	transform: translate(-50%, -50%;);
+}
+
+.heading{
+	font-size: 60px;
+	font-weight: 700px;
+	letter-spacing: 8px;
+	margin-bottom: 20px;
+	color: white;
+	position: relative;
+	background:black;
+	animation: text 3s 1;
+}
+.para{
+	font-size: 30px;
+	color:  #2bc00e ;
+
+}
+
+@keyframes text{
+	0%{
+		color: black;
+		margin-bottom: -40px;
+	}
+	30%{
+		letter-spacing: 25px;
+		margin-bottom: -40px;
+
+	}
+	80%{
+		letter-spacing: 8px;
+		margin-bottom: -40px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.container{
+		left: 0%;
+	}
+	.heading{
+		font-size: 36px;
+	}
+
+}
+
+
+
