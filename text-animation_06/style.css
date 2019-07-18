@@ -1,0 +1,163 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #0c002b;
+
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+    top: 22%;
+    left: 31%;
+	position: absolute;
+	display: flex;
+	position: absolute;
+	font-family: 'Barriecito', cursive;
+
+
+}
+
+ul li{
+	list-style: none;
+	color: #484848;
+	    letter-spacing: 28px;
+    font-size: 130px;
+	animation:animate 1.5s linear infinite;
+}
+
+
+@keyframes animate{
+
+		0%{
+			color:#484848;
+			text-shadow: none;
+		}
+
+		90%{ 
+		color:#484848;
+		text-shadow: none; }
+
+		100%{
+			color:#fff900;
+			text-shadow: 0 0  7px #fff900, 0 0 50px #ff6c00;
+		}
+}
+
+
+ul li:nth-child(1){
+	animation-delay: 0.2s;
+}
+
+ul li:nth-child(2){
+	animation-delay: .4s;
+}
+
+ul li:nth-child(3){
+	animation-delay: .6s;
+}
+
+ul li:nth-child(4){
+	animation-delay: .8s;
+}
+
+ul li:nth-child(5){
+	animation-delay: 1s;
+}
+
+ul li:nth-child(6){
+	animation-delay: 1.2s;
+}
+
+
+
+
+/* =============== ui developer ================= */
+
+.listUL{
+	top: 50% !important;
+    left: 10% !important;
+}
+
+.listUL li{
+	list-style: none;
+	color: #484848;
+	letter-spacing: 28px;
+    font-size: 100px;
+	animation:animate2 1.5s linear infinite;
+	font-family: 'Monoton', cursive;
+
+}
+
+.space{
+	padding-left: 20px;
+}
+
+
+.listUL li:nth-child(1){
+	animation-delay: 0.2s;
+}
+
+.listUL li:nth-child(2){
+	animation-delay: .4s;
+}
+
+.listUL li:nth-child(3){
+	animation-delay: 0.6s;
+}
+
+.listUL li:nth-child(4){
+	animation-delay: 0.8s;
+}
+
+.listUL li:nth-child(5){
+	animation-delay: 1s;
+}
+
+.listUL li:nth-child(6){
+	animation-delay: 1.2s;
+}
+
+.listUL li:nth-child(7){
+	animation-delay: 1.4s;
+}
+
+.listUL li:nth-child(8){
+	animation-delay: 1.6s;
+}
+
+.listUL li:nth-child(9){
+	animation-delay: 1.8s;
+}
+
+.listUL li:nth-child(10){
+	animation-delay: 2s;
+}
+
+.listUL li:nth-child(11){
+	animation-delay: 2.2s;
+}
+.listUL li:nth-child(12){
+	animation-delay: 2.4s;
+}
+
+
+
+@keyframes animate2{
+
+		0%{
+			color:#484848;
+			text-shadow: none;
+		}
+
+		90%{ 
+		color:#484848;
+		text-shadow: none; }
+
+		100%{
+			    color: #f572eb;
+    				text-shadow: 0 0 7px #fffa25, 0 0 50px #22ec3b;
+		}
+}
