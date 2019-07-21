@@ -1,0 +1,272 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+
+}
+
+
+
+.row{
+	padding: 5%;
+}
+
+
+
+/* =================================border animation set ========================*/
+
+.animated_div{
+	position: absolute;
+	background:#1B2631;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	animation:animateed_div1 2s linear infinite ;
+
+}
+.animated_div span:nth-child(1){
+
+	top: 0;
+	left: 0;
+	height: 3px;
+	width: 100%;
+	background: linear-gradient(to right, #0c002b,#1779ff );
+	position: absolute;
+	animation: borderani1 2s linear infinite;
+}
+
+.animated_div span:nth-child(2){
+
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 3px;
+	background: linear-gradient(to bottom, #0c002b,#1779ff );
+	position: absolute;
+	animation: borderani2 2s linear infinite;
+}
+
+.animated_div span:nth-child(3){
+
+	bottom: 0;
+	right: 0;
+	height: 3px;
+	width: 100%;
+	background: linear-gradient(to left, #0c002b,#1779ff );
+	position: absolute;
+	animation: borderani3 2s linear infinite;
+}
+
+
+.animated_div span:nth-child(4){
+
+	left: 0;
+	bottom: 0;
+	height: 100%;
+	width: 3px;
+	background: linear-gradient(to top, #0c002b,#1779ff );
+	position: absolute;
+	animation: borderani4 2s linear infinite;
+}
+
+
+/* div animation*/
+
+
+@keyframes animateed_div1 {
+
+	0%{
+
+		background:#1B2631;
+
+	}
+
+
+	100%{
+	background:black;
+	}
+}
+
+
+
+
+@keyframes borderani1{
+
+	0%{
+		transform: translateX(-100%);
+	
+	}
+
+
+	100%{
+		transform: translateX(100%);
+	}
+
+
+}
+
+
+@keyframes borderani2{
+
+	0%{
+		transform: translateY(-100%);
+	
+	}
+
+
+	100%{
+		transform: translateY(100%);
+	}
+
+
+}
+
+@keyframes borderani3{
+
+	0%{
+		transform: translateX(100%);
+	
+	}
+
+
+	100%{
+		transform: translateX(-100%);
+	}
+
+
+}
+
+@keyframes borderani4{
+
+	0%{
+		transform: translateY(100%);
+	
+	}
+
+
+	100%{
+		transform: translateY(-100%);
+	}
+
+
+}
+
+
+
+/* --------------------- boder animation set end -------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================== animated set 2 ======================= */
+
+.animated_div2{
+	position: absolute;
+	background:#1B2631;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	animation:animateed_div2 5s linear infinite ;
+
+}
+
+@keyframes animateed_div2{
+
+	0%{
+		transform: rotateZ(0deg);
+
+	}
+
+	25%{
+		transform: rotateZ(90deg);
+	}
+
+	50%{
+		transform: rotateZ(180deg);
+	}
+
+	75%{
+		transform: rotateZ(270deg);
+		background-color: black;
+	}
+
+	100%{
+		transform: rotateZ(360deg);
+	}
+
+
+
+
+}
+
+
+
+
+
+/* =================== animated set 03 ====================== */
+
+.animated_div3{
+	position: absolute;
+	background:#1B2631;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	animation:animateed_div3 5s linear infinite ;
+}
+
+@keyframes animateed_div3{
+
+	0%{
+		/*border-radius: 0px;*/
+		width: 0%
+	}
+
+	25%{
+		/*border-radius: 25px;*/
+		
+		width: 25%
+	}
+
+	50%{
+		/*border-radius: 50px;*/
+		width: 50%
+	}
+
+	75%{
+		/*border-radius: 75px;	*/	
+    	
+    	width: 75%
+	}
+
+	100%{
+		/*border-radius: 100px;
+		background: black;*/
+		width: 100%
+		
+	}
+
+
+
+
+
+}
+
+
+
