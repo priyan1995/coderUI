@@ -1,0 +1,166 @@
+body{
+	padding: 0;
+	margin: 0;
+
+}
+
+section	{
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	background:#000;
+	overflow: hidden;
+	animation: pd_change_background_color 20s linear infinite
+}
+
+.pd_bigPulse{
+	width: 100%;
+	height: 100%;
+
+}
+
+.pd_bigPulse span{
+
+	width:100px;
+	height: 100px;
+	background: #fff;
+	position: absolute;
+	
+}
+
+
+.pd_bigPulse span:nth-child(1){
+
+    top: 10%; 
+    left: 4%;
+    animation: pd_animate_square 10s linear infinite;
+
+}
+
+
+.pd_bigPulse span:nth-child(2){
+
+	top: 34%;
+    left: 19%; 
+    animation: pd_animate_square 10s linear infinite;
+}
+
+
+
+.pd_bigPulse span:nth-child(3){
+
+	top: 18%;
+    left: 40%;
+    animation: pd_animate_square 15s linear infinite;
+
+}
+.pd_bigPulse span:nth-child(4){
+
+	top: 71%;
+    left: 3%;
+    animation: pd_animate_square 18s linear infinite;
+}
+.pd_bigPulse span:nth-child(5){
+
+	top: 10%;
+    left: 68%;
+    animation: pd_animate_square 8s linear infinite;
+
+}
+.pd_bigPulse span:nth-child(6){
+
+	top: 57%;
+    left: 86%;
+    animation: pd_animate_square 10s linear infinite;
+}
+.pd_bigPulse span:nth-child(7){
+
+	top: 74%;
+    left: 53%;
+    animation: pd_animate_square 12s linear infinite;
+
+}
+.pd_bigPulse span:nth-child(8){
+
+	top: 64%;
+    left: 33%;
+    animation: pd_animate_square 17s linear infinite;
+
+}
+
+.pd_bigPulse span:nth-child(9){
+
+	top: 42%;
+    left: 59%;
+    animation: pd_animate_square 10s linear infinite;
+
+
+}
+
+.pd_bigPulse span:nth-child(10){
+
+	top: 13%;
+    left: 90%;
+    animation: pd_animate_square 17s linear infinite;
+
+}
+
+
+.pd_bigPulse span:nth-child(3n+1){
+
+background:transparent;
+border:2px solid #fff;
+
+}
+
+
+
+/* ---------------- animation square --------------------- */
+
+@keyframes pd_animate_square{
+
+	0%{
+		transform: scale(0) translateY(0) rotate(0deg);
+		opacity: 1;
+
+	}
+	100%{
+		transform: scale(1) translateY(-100px) rotate(360deg);
+		opacity: 0;
+
+	}
+}
+
+
+/* ---------------------- change background color --------------------- */
+
+@keyframes pd_change_background_color{
+	
+	0%{
+
+
+
+	}	
+	25%{
+
+		background-color: red;
+	}
+
+	50%{
+
+		background-color: orange;
+
+	}
+
+	75%{
+
+		background-color: blue;
+
+	}
+	100%{
+		background-color: black;
+
+	}
+
+}
+
