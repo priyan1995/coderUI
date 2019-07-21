@@ -1,0 +1,445 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url('back1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+
+}
+
+.pd_leaves{
+
+	opacity: 0.6;
+	
+
+}
+
+
+/* -------leave ---------- */ 
+.pd_leaves img:nth-child(1){
+
+width: 180px;
+position: absolute;
+animation: pd_animate_leaves1 20s linear infinite;
+left: 15%;
+
+
+}
+
+
+/* -------leave ---------- */ 
+.pd_leaves img:nth-child(2){
+
+width: 175px;
+position: absolute;
+animation: pd_animate_leaves2 10s linear infinite;
+left: 64%;
+}
+
+/* -------leave ---------- */ 
+.pd_leaves img:nth-child(3){
+
+width: 250px;
+position: absolute;
+animation: pd_animate_leaves3 12s linear infinite;
+left: 42%;
+}
+
+/* -------leave ---------- */ 
+.pd_leaves img:nth-child(4){
+
+width: 120px;
+position: absolute;
+animation: pd_animate_leaves4 8s linear infinite;
+left: 83%;
+}
+
+/* -------leave ---------- */ 
+.pd_leaves img:nth-child(5){
+
+width: 100px;
+position: absolute;
+animation: pd_animate_leaves5 10s linear infinite;
+left: 10%;
+}
+
+/* -------leave ---------- */ 
+.pd_leaves img:nth-child(6){
+
+width: 160px;
+position: absolute;
+animation: pd_animate_leaves6 8s linear infinite;
+left: 30%;
+}
+
+/* -------leave ---------- */ 
+.pd_leaves img:nth-child(7){
+
+width: 220px;
+position: absolute;
+animation: pd_animate_leaves7 15s linear infinite;
+left: 0%;
+}
+
+/* -------leave ---------- */ 
+.pd_leaves img:nth-child(8){
+
+width: 240px;
+position: absolute;
+animation: pd_animate_leaves8 5s linear infinite;
+left: 73%;
+
+}
+
+/* -------leave ---------- */ 
+.pd_leaves img:nth-child(9){
+
+width: 135px;
+position: absolute;
+animation: pd_animate_leaves9 15s linear infinite;
+left: 54%;
+}
+
+/* -------leave ---------- */ 
+.pd_leaves img:nth-child(10){
+
+width: 150px;
+position: absolute;
+animation: pd_animate_leaves10 16s linear infinite;
+left: 85%;
+
+}
+
+
+
+
+
+
+
+
+
+/* -------snow ---------- */ 
+.pd_leaves img:nth-child(11){
+
+width: 170px;
+position: absolute;
+animation: pd_animate_leaves10 13s linear infinite;
+left: 10%;
+
+}
+
+
+/* -------snow ---------- */ 
+.pd_leaves img:nth-child(12){
+
+width: 150px;
+position: absolute;
+animation: pd_animate_leaves10 15s linear infinite;
+left: 20%;
+
+}
+
+
+
+/* -------snow ---------- */ 
+.pd_leaves img:nth-child(13){
+
+width: 200px;
+position: absolute;
+animation: pd_animate_leaves10 7s linear infinite;
+left: 30%;
+
+}
+
+
+/* -------snow ---------- */ 
+.pd_leaves img:nth-child(14){
+
+width: 120px;
+position: absolute;
+animation: pd_animate_leaves10 15s linear infinite;
+left: 40%;
+
+}
+
+
+/* -------snow ---------- */ 
+.pd_leaves img:nth-child(15){
+
+width: 140px;
+position: absolute;
+animation: pd_animate_leaves10 9s linear infinite;
+left: 50%;
+
+}
+
+
+/* -------snow ---------- */ 
+.pd_leaves img:nth-child(16){
+
+width: 190px;
+position: absolute;
+animation: pd_animate_leaves10 20s linear infinite;
+left: 60%;
+
+}
+
+
+/* -------snow ---------- */ 
+.pd_leaves img:nth-child(17){
+
+width: 160px;
+position: absolute;
+animation: pd_animate_leaves10 16s linear infinite;
+left: 70%;
+
+}
+
+
+/* -------snow ---------- */ 
+.pd_leaves img:nth-child(18){
+
+width: 150px;
+position: absolute;
+animation: pd_animate_leaves10 5s linear infinite;
+left: 75%;
+
+}
+
+/* -------snow ---------- */ 
+.pd_leaves img:nth-child(19){
+
+width: 180px;
+position: absolute;
+animation: pd_animate_leaves10 12s linear infinite;
+left:85%;
+
+}
+
+
+/*==================leves fallen animation ----------------------- */
+
+
+/*--- leave --*/
+
+@keyframes pd_animate_leaves1{
+
+	0%{
+		top: -100%;
+		transform: rotate(0deg);
+
+	}
+
+	100%{
+
+		
+		top: 100%;
+		transform: rotate(360deg);
+
+		}
+
+}
+
+/*--- leave --*/
+
+@keyframes pd_animate_leaves2{
+
+	0%{
+		top: -100%;
+		transform: rotate(0deg);
+
+	}
+
+	100%{
+
+		
+		top: 100%;
+		transform: rotate(360deg);
+
+		}
+
+}
+
+
+/*--- leave --*/
+
+@keyframes pd_animate_leaves3{
+
+	0%{
+		top: -100%;
+		transform: rotate(0deg);
+
+	}
+
+	100%{
+
+		
+		top: 100%;
+		transform: rotate(360deg);
+
+		}
+
+}
+
+
+/*--- leave --*/
+
+@keyframes pd_animate_leaves3{
+
+	0%{
+		top: -100%;
+		transform: rotate(0deg);
+
+	}
+
+	100%{
+
+		
+		top: 100%;
+		transform: rotate(360deg);
+
+		}
+
+}
+
+/*--- leave --*/
+
+@keyframes pd_animate_leaves4{
+
+	0%{
+		top: -100%;
+		transform: rotate(0deg);
+
+	}
+
+	100%{
+
+		
+		top: 100%;
+		transform: rotate(360deg);
+
+		}
+
+}
+
+/*--- leave --*/
+
+@keyframes pd_animate_leaves5{
+
+	0%{
+		top: -100%;
+		transform: rotate(0deg);
+
+	}
+
+	100%{
+
+		
+		top: 100%;
+		transform: rotate(360deg);
+
+		}
+
+}
+
+/*--- leave --*/
+
+@keyframes pd_animate_leaves6{
+
+	0%{
+		top: -100%;
+		transform: rotate(0deg);
+
+	}
+
+	100%{
+
+		
+		top: 100%;
+		transform: rotate(360deg);
+
+		}
+
+}
+
+/*--- leave --*/
+
+@keyframes pd_animate_leaves7{
+
+	0%{
+		top: -100%;
+		transform: rotate(0deg);
+
+	}
+
+	100%{
+
+		
+		top: 100%;
+		transform: rotate(360deg);
+
+		}
+
+}
+
+/*--- leave --*/
+
+@keyframes pd_animate_leaves8{
+
+	0%{
+		top: -100%;
+		transform: rotate(0deg);
+
+	}
+
+	100%{
+
+		
+		top: 100%;
+		transform: rotate(360deg);
+
+		}
+
+}
+
+/*--- leave --*/
+
+@keyframes pd_animate_leaves9{
+
+	0%{
+		top: -100%;
+		transform: rotate(0deg);
+
+	}
+
+	100%{
+
+		
+		top: 100%;
+		transform: rotate(360deg);
+
+		}
+
+}
+
+/*--- leave --*/
+
+@keyframes pd_animate_leaves10{
+
+	0%{
+		top: -100%;
+		transform: rotate(0deg);
+
+	}
+
+	100%{
+
+		
+		top: 100%;
+		transform: rotate(360deg);
+
+		}
+
+}
