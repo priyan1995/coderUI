@@ -1,0 +1,536 @@
+body {
+    background: #353535;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: body_animate 20s infinite;
+    overflow: hidden;
+}
+
+.curs-change {
+    cursor: url(curs.png), auto;
+}
+
+@keyframes body_animate {
+    0% {
+        background: #353535;
+    }
+    25% {
+        background: #1b1717;
+    }
+    50% {
+        background: #250101;
+    }
+    75% {
+        background: #010425;
+    }
+    100% {
+        background: #353535;
+    }
+}
+
+.pd-404-div {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+}
+
+.pd-404-div span {
+    color: #ffffffcf;
+    letter-spacing: 25px;
+    font-size: 280px;
+    font-weight: 900;
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Lobster', cursive;
+    text-shadow: -9px 6px 0px #ffffff57;
+    z-index: 9999999999999999999999;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 70px;
+}
+
+.gblink {
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    position: relative;
+}
+
+.gblink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* =========== boll 1 =========== */
+
+.boll-1 {
+    position: absolute;
+    top: -35%;
+    background: #7138383d;
+    width: 50px;
+    height: 50px;
+    left: 20%;
+    border-radius: 80px;
+    animation: boll_1 50s infinite;
+}
+
+@keyframes boll_1 {
+    0% {}
+    25% {
+        width: 80px;
+        height: 80px;
+    }
+    50% {}
+    75% {}
+    100% {
+        top: 150%;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+/* =========== boll 2 =========== */
+
+.boll-2 {
+    position: absolute;
+    top: -35%;
+    background: #7138383d;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    border-radius: 80px;
+    animation: boll_2 50s infinite;
+    animation-delay: 10s;
+    z-index: -1;
+}
+
+@keyframes boll_2 {
+    0% {}
+    25% {
+        width: 80px;
+        height: 80px;
+    }
+    50% {}
+    75% {}
+    100% {
+        top: 150%;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+/* =========== boll 3 =========== */
+
+.boll-3 {
+    position: absolute;
+    top: -35%;
+    background: #8474743d;
+    width: 50px;
+    height: 50px;
+    left: 64%;
+    border-radius: 80px;
+    animation: boll_3 50s infinite;
+    animation-delay: 15s;
+    z-index: -1;
+}
+
+@keyframes boll_3 {
+    0% {}
+    25% {
+        width: 80px;
+        height: 80px;
+    }
+    50% {}
+    75% {}
+    100% {
+        top: 150%;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+/* =========== boll 4 =========== */
+
+.boll-4 {
+    position: absolute;
+    top: -35%;
+    background: #0951ab45;
+    width: 50px;
+    height: 50px;
+    left: 2%;
+    border-radius: 80px;
+    animation: boll_4 50s infinite;
+    animation-delay: 20s;
+    z-index: -1;
+}
+
+@keyframes boll_4 {
+    0% {}
+    25% {
+        width: 80px;
+        height: 80px;
+    }
+    50% {}
+    75% {}
+    100% {
+        top: 150%;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+/* =========== boll 5 =========== */
+
+.boll-5 {
+    position: absolute;
+    top: -35%;
+    background: #0d6d0145;
+    width: 50px;
+    height: 50px;
+    left: 80%;
+    border-radius: 80px;
+    animation: boll_5 50s infinite;
+    animation-delay: 2s;
+    z-index: -1;
+}
+
+@keyframes boll_5 {
+    0% {}
+    25% {
+        width: 80px;
+        height: 80px;
+    }
+    50% {}
+    75% {}
+    100% {
+        top: 150%;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+/* =========== boll 6 =========== */
+
+.boll-6 {
+    position: absolute;
+    top: -35%;
+    background: #69006145;
+    width: 50px;
+    height: 50px;
+    left: 94%;
+    border-radius: 80px;
+    animation: boll_6 50s infinite;
+    animation-delay: 10s;
+    z-index: -1;
+}
+
+@keyframes boll_6 {
+    0% {}
+    25% {
+        width: 80px;
+        height: 80px;
+    }
+    50% {}
+    75% {}
+    100% {
+        top: 150%;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+/* =========== boll 7 =========== */
+
+.boll-7 {
+    position: absolute;
+    top: -35%;
+    background: #69006145;
+    width: 50px;
+    height: 50px;
+    left: 27%;
+    border-radius: 80px;
+    animation: boll_7 50s infinite;
+    animation-delay: 10s;
+    z-index: -1;
+}
+
+@keyframes boll_7 {
+    0% {}
+    25% {
+        width: 80px;
+        height: 80px;
+    }
+    50% {}
+    75% {}
+    100% {
+        top: 150%;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+/* =========== boll 8 =========== */
+
+.boll-8 {
+    position: absolute;
+    top: -35%;
+    background: #025d0d45;
+    width: 50px;
+    height: 50px;
+    left: 38%;
+    border-radius: 80px;
+    animation: boll_8 50s infinite;
+    animation-delay: 4s;
+    z-index: -1;
+}
+
+@keyframes boll_8 {
+    0% {}
+    25% {
+        width: 80px;
+        height: 80px;
+    }
+    50% {}
+    75% {}
+    100% {
+        top: 150%;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+/* =========== boll 9 =========== */
+
+.boll-9 {
+    position: absolute;
+    top: -35%;
+    background: #09005045;
+    width: 50px;
+    height: 50px;
+    left: 8%;
+    border-radius: 80px;
+    animation: boll_9 50s infinite;
+    animation-delay: 5s;
+    z-index: -1;
+}
+
+@keyframes boll_9 {
+    0% {}
+    25% {
+        width: 80px;
+        height: 80px;
+    }
+    50% {}
+    75% {}
+    100% {
+        top: 150%;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+/* =========== boll 10 =========== */
+
+.boll-10 {
+    position: absolute;
+    top: -35%;
+    background: #004e4445;
+    width: 50px;
+    height: 50px;
+    left: 85%;
+    border-radius: 80px;
+    animation: boll_10 50s infinite;
+    animation-delay: 20s;
+    z-index: -1;
+}
+
+@keyframes boll_10 {
+    0% {}
+    25% {
+        width: 80px;
+        height: 80px;
+    }
+    50% {}
+    75% {}
+    100% {
+        top: 150%;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+/* /////////////////////////////////////// */
+
+
+/* .pd-404-div .span404:nth-child(2) {
+    animation: anim4_1 2s;
+}
+
+@keyframes anim4_1 {
+    0% {}
+    50% {
+        font-size: 300px;
+    }
+} */
+
+
+/* ====== */
+
+
+/* 
+.pd-404-div .span404:nth-child(3) {
+    animation-delay: 1s;
+}
+
+@keyframes anim4_2 {
+    0% {}
+    50% {
+        font-size: 300px;
+    }
+} */
+
+
+/* ====== */
+
+
+/* .pd-404-div .span404:nth-child(4) {
+    animation: anim4_3 2s;
+    animation-delay: 2s;
+}
+
+@keyframes anim4_3 {
+    0% {}
+    50% {
+        font-size: 300px;
+    }
+} */
+
+
+/* ================================== */
+
+.bird-1 {
+    position: absolute;
+    animation: animate_bird_1 1s;
+}
+
+
+/* ============= bird 2 animation ===== */
+
+#bird2 {
+    position: absolute;
+    top: 0%;
+    left: -15%;
+    filter: contrast(0.1) invert(0.01);
+    opacity: 0.1;
+    animation: animateBird2 20s infinite;
+}
+
+@keyframes animateBird2 {
+    0% {}
+    100% {
+        left: 110%;
+    }
+}
+
+
+/* ============= bird 3 animation ===== */
+
+#bird3 {
+    position: absolute;
+    top: 10%;
+    left: -15%;
+    filter: contrast(0.1) invert(0.01);
+    opacity: 0.1;
+    animation: animateBird3 20s infinite;
+    transform: scale(0.8);
+    animation-delay: 4s;
+}
+
+@keyframes animateBird3 {
+    0% {}
+    100% {
+        left: 110%;
+    }
+}
+
+
+/* ============= bird 4 animation ===== */
+
+#bird4 {
+    position: absolute;
+    top: 0%;
+    left: -15%;
+    filter: contrast(0.1) invert(0.01);
+    opacity: 0.1;
+    animation: animateBird4 20s infinite;
+    transform: scale(0.7);
+    animation-delay: 3s;
+}
+
+@keyframes animateBird4 {
+    0% {}
+    100% {
+        left: 110%;
+    }
+}
+
+
+/* ============= bird 5 animation ===== */
+
+#bird5 {
+    position: absolute;
+    top: 15%;
+    left: -15%;
+    filter: contrast(0.1) invert(0.01);
+    opacity: 0.1;
+    animation: animateBird5 20s infinite;
+    transform: scale(0.5);
+    animation-delay: 2s;
+}
+
+@keyframes animateBird5 {
+    0% {}
+    100% {
+        left: 110%;
+    }
+}
+
+
+/* =========== nest ============ */
+
+.spnnestaft {
+    position: relative;
+}
+
+.spnnestaft::after {
+    content: '';
+    background: url(nest.png);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 20px;
+    bottom: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* z-index: -1; */
+    filter: opacity(0.7);
+}
+
+filter: opacity(0.7);
+
+}
